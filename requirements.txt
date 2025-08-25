@@ -1,6 +1,2 @@
-selenium
-python-telegram-bot==20.3
-webdriver-manager
-pip install python-telegram-bot==20.6 playwright asyncio
-playwright install
-
+python-telegram-bot==20.6
+playwright==1.44.0
