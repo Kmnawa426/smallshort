@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 from playwright.async_api import async_playwright
 
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "8301656833:AAH8SGnrSF5fv9dCeYss7iNWTL0QM-Y5MVA"
 
 async def resolve_shortlink(url: str):
     async with async_playwright() as p:
